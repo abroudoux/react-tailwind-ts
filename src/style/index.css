@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -73,4 +74,28 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.page {
+  @apply w-full h-auto flex-col-center py-32;
+}
+
+.flex-col-center {
+  @apply flex flex-col items-center;
+}
+
+.flex-row-center {
+  @apply flex flex-row items-center;
+}
+
+.flex-row-center-between {
+  @apply flex-row-center justify-between;
+}
+
+.flex-row-center-center {
+  @apply flex-row-center justify-center;
+}
+
+.flex-col-center-center {
+  @apply flex-col-center justify-center;
 }
