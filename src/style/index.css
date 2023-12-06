@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -75,29 +76,10 @@
   }
 }
 
-:root {
-  --purple: #8e4ec6;
-  --purple-light: #d19dff;
-  --purple-borders: #664282;
-  --purple-interractive: #3d224e;
-  --black: #18111b;
-  --black-purple: #1e1523;
-  --white: #ecd9fa;
-  --grey-light: #f5f1ffb7;
-  --grey-light-lighten: #f5f6f7;
-  --grey-dark: #2f2f2f;
-  --grey-dark-lighten: #393939;
-}
-
 * {
   scrollbar-width: none;
   ms-overflow-style: none;
   scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  @apply bg-black text-white;
 }
 
 body::-webkit-scrollbar {
@@ -128,6 +110,3 @@ body::-webkit-scrollbar {
   @apply flex-col-center justify-center;
 }
 
-.active {
-  @apply flex-row-center py-2 px-4 bg-white text-black rounded-lg;
-}
