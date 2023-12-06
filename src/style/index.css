@@ -76,8 +76,14 @@
   }
 }
 
-.page {
-  @apply w-full h-auto flex-col-center py-32;
+* {
+  scrollbar-width: none;
+  ms-overflow-style: none;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .flex-col-center {
@@ -86,6 +92,10 @@
 
 .flex-row-center {
   @apply flex flex-row items-center;
+}
+
+.flex-row-start-between {
+  @apply flex flex-row items-start justify-between;
 }
 
 .flex-row-center-between {
@@ -99,3 +109,4 @@
 .flex-col-center-center {
   @apply flex-col-center justify-center;
 }
+

@@ -1,7 +1,1 @@
-# React Template
-
-TypeScript
-SCSS/SASS
-Tailwind
-React Router
-Deploy with Github Pages
+# React Template with TailwindCSS, SCSS, TypeScript and Vite
