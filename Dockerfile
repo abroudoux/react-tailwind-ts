@@ -1,5 +1,5 @@
 
-FROM ubi9/nodejs-18
+FROM node:21
 
 WORKDIR /dist
 

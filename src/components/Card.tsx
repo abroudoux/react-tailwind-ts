@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 
 
 type CardProps = {
@@ -6,15 +6,12 @@ type CardProps = {
 };
 
 const Card : FC<CardProps> = ( props ) => {
-
     return (
-
         <div className="flex-col-center-center h-20 w-20">
             <h2>{ props.title }</h2>
         </div>
-
-    )
-}
+    );
+};
 
 
 export default Card;
