@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/config/theme-provider";
 import Home from "@/pages/Home";
 
 import "@/style/index.css";
+import "@/style/layouts.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement,).render(
