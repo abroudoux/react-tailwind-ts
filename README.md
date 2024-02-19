@@ -51,7 +51,7 @@ To use react-boilerplate in development, follow these steps:
 
 2. Install dependencies.
 
-```basg
+```bash
 npm i
 ```
 
