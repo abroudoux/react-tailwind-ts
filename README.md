@@ -1,4 +1,5 @@
 # react-boilerplate
+
 ## 💻・About
 
 React boilerplate to quickly setup projects!
@@ -20,7 +21,7 @@ git clone https://github.com/abroudoux/react-boilerplate
 ```
 
 ### Install dependencies
-```bas
+```bash
 npm i
 ```
 or 
