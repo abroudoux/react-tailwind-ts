@@ -1,8 +1,4 @@
 # react-boilerplate
-
-![Repo Size](https://img.shields.io/github/repo-size/abroudoux/react-boilerplate)
-![License](https://img.shields.io/badge/license-MIT-blue)
-
 ## 💻・About
 
 React boilerplate to quickly setup projects!
@@ -16,7 +12,7 @@ React boilerplate to quickly setup projects!
 - ShadcnUi
 - Zustand
 
-## Setup
+## 🎯・Setup
 
 ### Clone this repo
 ```bash
@@ -33,8 +29,6 @@ or
 yarn install
 ```
 
-## 🎯・Setup
-
 ### Configure your environment variables in `.env`
 
 ```bash
@@ -48,7 +42,27 @@ npm run dev
 
 Have fun !
 
-## Copyright and licences
+## 🧑‍🤝‍🧑・Contributing
+
+To use react-boilerplate in development, follow these steps:
+
+1. Fork the project.
+
+2. Install dependencies.
+
+```basg
+npm i
+```
+
+3. Create a branch with [conventionnal name](https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/use-github/naming-git-branches/).
+
+   - fix: `bugfix/the-bug-fixed`
+   - features: `feature/the-amazing-feature`
+   - test: `test/the-famous-test`
+   - hotfix `hotfix/oh-my-god-bro`
+   - wip `wip/the-work-name-in-progress`
+
+## 📑・Licence
 
 MIT License
 
