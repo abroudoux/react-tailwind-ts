@@ -1,9 +1,9 @@
 import Card from "@/components/Card";
 
-export default function Home() {
+export default function App() {
   return (
     <section>
-      <h1>Home</h1>
+      <h1>App</h1>
       <Card title="Card Title" />
     </section>
   );

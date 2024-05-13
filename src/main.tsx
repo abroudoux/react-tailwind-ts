@@ -1,21 +1,17 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Toaster } from "sonner";
+import { RouterProvider } from "react-router-dom";
 
+import router from "@/lib/router";
 import { ThemeProvider } from "@/config/theme-provider";
 
-import Home from "@/pages/Home";
+import { Toaster } from "@/components/ui/toaster";
 
 import "@/style/index.css";
 import "@/style/layouts.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-      </Routes>
-      <Toaster richColors />
-    </BrowserRouter>
+    <RouterProvider router={router} />
+    <Toaster />
   </ThemeProvider>
 );
