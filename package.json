@@ -1,6 +1,17 @@
 {
-  "name": "react-template",
-  "version": "0.1.0",
+  "name": "react-boilerplate",
+  "description": "A React boilerplate with Vite, TypeScript, TailwindCSS, and more.",
+  "author": {
+    "name": "Arthur BROUDOUX <abroudoux>",
+    "email": "arthur.broudoux@gmail.com",
+    "github": "abroudoux"
+  },
+  "re^pository": {
+    "type": "git",
+    "url": "https://github.com/abroudoux/react-boilerplate.git"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -35,6 +46,7 @@
     "eslint-config-react-app": "^7.0.1",
     "eslint-import-resolver-typescript": "^3.6.1",
     "lucide-react": "^0.294.0",
+    "postcss": "^8.4.38",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
