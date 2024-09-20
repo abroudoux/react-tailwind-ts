@@ -4,7 +4,7 @@ import { RouterProvider } from "react-router-dom";
 import router from "@/lib/router";
 import { ThemeProvider } from "@/config/theme-provider";
 
-import { Toaster } from "@/components/ui/toaster";
+import { Toaster } from "@/lib/components/ui/toaster";
 
 import "@/style/index.css";
 import "@/style/layouts.css";
